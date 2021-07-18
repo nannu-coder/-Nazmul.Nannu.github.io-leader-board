@@ -16,49 +16,150 @@
 
 <body>
 
+    <!--=====Header Part=====-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #562EFF;">
+            <div class=" container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/icons/logo.png" alt="logo.png">
+                    <span> Idea</span>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link active" aria-current="page" href="#">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <img src="images/icons/profile.png" alt="profile.png">
+                            </a>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </nav>
     </header>
+    <!--=====Header Part End=====-->
+    <!--=====Main Part Start=====-->
+    <main class="players mt-4">
+        <div class="container">
+            <div class="player-blog rounded-3 p-3">
+                <div class="player_part">
+                    <h4 class="py-3">Top Player</h4>
+                    <div class="row gy-3">
+                        <div class="col-lg-4">
+                            <img src="images/players/player-1.png" alt="player-1.png">
+                            <span>John Smith</span>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="images/players/player-2.png" alt="player-2.png">
+                            <span>Pro Rasel</span>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="images/players/player-3.png" alt="player-3.png">
+                            <span>Abu Sufian</span>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="images/players/player-4.png" alt="player-4.png">
+                            <span>Shajedul Karim</span>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="images/players/player-5.png" alt="player-5.png">
+                            <span>Maruf Ahmed</span>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="images/players/player-6.png" alt="player-6.png">
+                            <span>Mujahid</span>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="top-blog">
+                    <h4 class="mb-4">Top Blog</h4>
+                    <div class="row gy-3">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="blog-img">
+                                        <img class="img-fluid w-100" src="images/blogs/blog-1.png" alt="blog-1.png">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="blog-text">
+                                        <h5>13 of My Favorite <br>
+                                            UI/UX Goodies</h5>
+                                        <p>By <a href="#">Danny Sapio</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="blog-img">
+                                        <img class="img-fluid w-100" src="images/blogs/blog-2.png" alt="blog-2.png">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="blog-text">
+                                        <h5>UI cheat sheet: <br>
+                                            list vs grids</h5>
+                                        <p>By <a href="#">Tess Godd</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="blog-img">
+                                        <img class="img-fluid w-100" src="images/blogs/blog-3.png" alt="blog-3.png">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="blog-text">
+                                        <h5>7 typography tips <br>
+                                            for interface design</h5>
+                                        <p>By <a href="#">Jeremiah Lam</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="blog-img">
+                                        <img class="img-fluid w-100" src="images/blogs/blog-4.png" alt="blog-4.png">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="blog-text">
+                                        <h5>Your logo is <br>
+                                            copied</h5>
+                                        <p>By <a href="#">Ferdinand Vogler</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
 
     <!--=====JQUERY SCRIPT=====-->
     <script src="js/jquery-3.6.0.slim.min.js"></script>
