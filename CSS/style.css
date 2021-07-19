@@ -93,3 +93,42 @@ body {
     color: #562EFF;
     text-decoration: none;
 }
+
+/*===========================================
+              Course Part Start
+=============================================*/
+
+.crs_box {
+    border-radius: 25px;
+}
+
+.text-part a {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #ED6B4F;
+}
+
+.rating_part ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rating_part ul li {
+    display: inline-block;
+    color: #FFC014;
+}
+
+.rating_part ul li span {
+    color: #AEAEAE;
+}
+
+.crs_duration p {
+    margin: 0;
+    background-color: #FEE5DF;
+    border-radius: 25px;
+    padding: 3px 10px;
+    color: #FF4A60;
+    font-size: 16px;
+    font-weight: 500;
+}
